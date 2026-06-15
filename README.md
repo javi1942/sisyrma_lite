@@ -56,7 +56,7 @@ Esta aplicación digitaliza y automatiza el control de rotación de personal. Pe
 
 ### Pasos para ejecutar
 
-1. **Clona o descarga el repositorio:**
-   ```bash
-   git clone https://github.com/tu-usuario/seguimiento-personal-ebd.git
-   cd seguimiento-personal-ebd
+1. Clona o descarga el repositorio:
+
+   git clone https://github.com/javi1942/sisyrma_lite.git
+   cd sisyrma_lite
