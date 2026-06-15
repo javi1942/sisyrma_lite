@@ -1,0 +1,11 @@
+import db_manager
+from gui_app import App
+import tkinter as tk
+import data_loader
+
+if __name__ == "__main__":
+    db_manager.init_db()
+    data_loader.cargar_prueba()
+    root = tk.Tk()
+    app = App(root)
+    root.mainloop()
