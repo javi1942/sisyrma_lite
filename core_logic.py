@@ -1,5 +1,12 @@
 from datetime import datetime, date
 import db_manager
+import logging
+
+        logging.basicConfig(
+        filename='app.log',
+        level=logging.ERROR,
+        format='%(asctime)s - %(levelname)s - %(message)s'
+        )
 
 def obtener_ultimo_ingreso(persona_id):
     conn = db_manager.get_connection()
@@ -18,9 +25,8 @@ def obtener_ultimo_ingreso(persona_id):
             return row[0].split()[0]
         return None
     except Exception as e:
-        print(f"❌ Error en obtener_ultimo_ingreso: {e}")
-        conn.close()
-        return None
+       logging.error(f"Error en calcular_estado: {e}")
+        messagebox.showerror("Error", "Ocurrió un error al calcular el estado")
 
 def calcular_estado(fecha_inicio):
     try:
