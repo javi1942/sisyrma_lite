@@ -22,7 +22,8 @@ En operaciones de campo (minería, construcción, proyectos remotos), el persona
 
 ## 💡 Solución Propuesta
 
-Esta aplicación digitaliza y automatiza el control de rotación de personal. Permite registrar el ingreso y salida de cada trabajador al lote, calcula automáticamente su estado actual (en campo o descansando), muestra alertas visuales cuando el ciclo está por terminar y genera reportes instantáneos de cobertura operativa.
+Esta aplicación digitaliza y automatiza el control de rotación de personal. Permite registrar el ingreso y salida de cada trabajador al lote, calcula automáticamente su estado actual (en campo o descansando), muestra alertas visuales cuando el ciclo está por terminar y genera reportes instantáneos de cobertura operativa.  Por eso desarrollé un sistema automatizado en Python que calcula automáticamente el estado de cada trabajador, genera alertas 7 días antes del relevo y reporta cobertura en tiempo real.
+
 
 ### 📸 Capturas de Pantalla
 
