@@ -1,4 +1,5 @@
 mport sqlite3
+import os
 from pathlib import Path
 
 DB_PATH = Path(__file__).parent / "data" / "empleados.db"
@@ -8,7 +9,6 @@ def init_db():
         DB_PATH.parent.mkdir(exist_ok=True)
         if not os.access(DB_PATH.parent, os.W_OK):
         raise PermissionError(f"No hay permisos de escritura en {DB_PATH.parent}")
-        conn = sqlite3.connect(DB_PATH)
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
         cursor.executescript("""
@@ -41,12 +41,11 @@ def init_db():
         conn.commit()
         conn.close()
         print("✅ Base de datos inicializada")
-    except Exception as e:
-        print(f"❌ Error al inicializar DB: {e}")
     except PermissionError as e:
         print(f"❌ Error de permisos: {e}")
-        messagebox.showerror("Error", "No se puede crear la base de datos. Verifique permisos.")
-
+    except Exception as e:
+        print(f"❌ Error al inicializar DB: {e}")
+   
 def get_connection():
     try:
         return sqlite3.connect(DB_PATH)
