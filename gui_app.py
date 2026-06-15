@@ -169,6 +169,19 @@ class App:
         def guardar():
             nombre = entry_nombre.get().strip()
             fecha = entry_fecha.get().strip()
+           
+            from datetime import datetime
+
+        def validar_fecha(fecha_str):
+            try:
+            datetime.strptime(fecha_str, "%Y-%m-%d")
+            return True
+            except ValueError:
+            return False
+
+            if not validar_fecha(fecha):
+                messagebox.showerror("Error", "Fecha inválida. Use formato YYYY-MM-DD")
+                return
             if not puesto_var.get():
                 messagebox.showerror("Error", "Seleccione un puesto")
                 return
