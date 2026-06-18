@@ -38,6 +38,9 @@ Esta aplicación digitaliza y automatiza el control de rotación de personal. Pe
 ## 📸 Captura del Sistema
 
 ![Vista de la aplicación](Screenshot_20260617-183418_Pydroid_3[1].jpg)
+![Vista de la aplicación](Screenshot_20260617-183433_Pydroid_3[1].jpg)
+![Vista de la aplicación](Screenshot_20260617-183447_Pydroid_3[1].jpg)
+![Vista de la aplicación](Screenshot_20260617-184044_Pydroid_3[1].jpg)
 ---
 
 ## ✨ Características Principales
