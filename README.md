@@ -36,11 +36,21 @@ Esta aplicación digitaliza y automatiza el control de rotación de personal. Pe
 *Modal de reporte que muestra el personal actual vs. el requerido por puesto y el estado general de la operación.*
 
 ## 📸 Captura del Sistema
-
+### Vista Principal - Tabla de Control de Personal
 ![Vista de la aplicación](Screenshot_20260617-183418_Pydroid_3[1].jpg)
+*Interfaz principal con la tabla de empleados y sus estados*
+
+### Reporte de Cobertura
 ![Vista de la aplicación](Screenshot_20260617-183433_Pydroid_3[1].jpg)
+*Visualización del personal en campo vs. requerido*
+
+### Importación CSV
 ![Vista de la aplicación](Screenshot_20260617-183447_Pydroid_3[1].jpg)
+*Carga masiva de empleados desde archivo CSV*
+
+### Registro de Ingreso/Salida
 ![Vista de la aplicación](Screenshot_20260617-184044_Pydroid_3[1].jpg)
+*Formulario para registrar movimiento del personal*
 ---
 
 ## ✨ Características Principales
