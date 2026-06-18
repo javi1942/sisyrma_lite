@@ -35,6 +35,9 @@ Esta aplicación digitaliza y automatiza el control de rotación de personal. Pe
 ![Reporte Cobertura](https://image.qwenlm.ai/public_source/bc9098c5-bc63-4516-a24a-89cba027295d/104e71255-223d-45e7-b584-e89ab485da75.png)
 *Modal de reporte que muestra el personal actual vs. el requerido por puesto y el estado general de la operación.*
 
+## 📸 Captura del Sistema
+
+![Vista de la aplicación](Screenshot_20260617-183418_Pydroid%203.png)
 ---
 
 ## ✨ Características Principales
