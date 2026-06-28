@@ -1,4 +1,4 @@
-# 📋 Seguimiento de Personal Consorcio EBD - Control 21x10
+# 📋 Seguimiento de Personal Consorcio EBDX - Control 21x10
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![SQLite](https://img.shields.io/badge/SQLite-3-green?logo=sqlite)
