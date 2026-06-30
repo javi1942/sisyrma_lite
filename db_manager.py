@@ -8,7 +8,7 @@ def init_db():
     try:
         DB_PATH.parent.mkdir(exist_ok=True)
         if not os.access(DB_PATH.parent, os.W_OK):
-        raise PermissionError(f"No hay permisos de escritura en {DB_PATH.parent}")
+            raise PermissionError(f"No hay permisos de escritura en {DB_PATH.parent}")
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
         cursor.executescript("""

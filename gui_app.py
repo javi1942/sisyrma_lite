@@ -174,10 +174,10 @@ class App:
 
         def validar_fecha(fecha_str):
             try:
-            datetime.strptime(fecha_str, "%Y-%m-%d")
-            return True
+                datetime.strptime(fecha_str, "%Y-%m-%d")
+                return True
             except ValueError:
-            return False
+                return False
 
             if not validar_fecha(fecha):
                 messagebox.showerror("Error", "Fecha inválida. Use formato YYYY-MM-DD")
