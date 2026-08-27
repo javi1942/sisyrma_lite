@@ -42,7 +42,7 @@ Esta aplicación digitaliza y automatiza el control de rotación de personal. Pe
 
 ### Registro de Ingreso/Salida
 ![Vista de la aplicación](INGRESO_LOTE.jpg)
-![Vista de la aplicación](REG_SALIDA.jpg)
+![Vista de la aplicación](REG_SALIDA[1].jpg)
 *Visualización del personal en campo vs. requerido*
 
 ### Reporte de Cobertura
@@ -51,7 +51,7 @@ Esta aplicación digitaliza y automatiza el control de rotación de personal. Pe
 
 ### Importación CSV
 ![Vista de la aplicación](Screenshot_20260617-184044_Pydroid_3[1].jpg)
-![Vista de la aplicación](importar_csv.jpg)
+![Vista de la aplicación](importar_csv[1].jpg)
 *Formulario para registrar movimiento del personal*
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/34c4ed96-de07-4c9d-9f00-02258a83d219" />
 
