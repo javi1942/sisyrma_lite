@@ -37,7 +37,7 @@ Esta aplicación digitaliza y automatiza el control de rotación de personal. Pe
 
 ## 📸 Captura del Sistema
 ### Vista Principal - Tabla de Control de Personal
-![Vista de la aplicación](sin_datos.jpg)
+![Vista de la aplicación](sin_datos[2].jpg)
 *Interfaz principal con la tabla de empleados y sus estados*
 
 ### Registro de Ingreso/Salida
