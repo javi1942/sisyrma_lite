@@ -41,7 +41,7 @@ Esta aplicación digitaliza y automatiza el control de rotación de personal. Pe
 *Interfaz principal con la tabla de empleados y sus estados*
 
 ### Registro de Ingreso/Salida
-![Vista de la aplicación](INGRESO_LOTE.jpg)
+![Vista de la aplicación](INGRESO_LOTE[1].jpg)
 ![Vista de la aplicación](REG_SALIDA[1].jpg)
 *Visualización del personal en campo vs. requerido*
 
